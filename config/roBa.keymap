@@ -55,43 +55,16 @@
         default_layer {
             bindings = <
 &none    &none  &kp L        &kp U               &kp F                                              &kp W             &kp R           &kp Y        &none    &none
-&lt 1 Q  &kp E  &mt LCTRL I  &mt LEFT_ALT A      &mt LEFT_SHIFT O  &kp MINUS      &kp K             &mt LEFT_SHIFT T  &mt LEFT_ALT N  &mt LCTRL S  &lt 4 H  &kp P
+&lt 4 Q  &kp E  &mt LCTRL I  &mt LEFT_ALT A      &mt LEFT_SHIFT O  &kp MINUS      &kp K             &mt LEFT_SHIFT T  &mt LEFT_ALT N  &mt LCTRL S  &lt 1 H  &kp P
 &none    &kp Z  &kp X        &kp C               &kp V             &kp COMMA      &kp G             &kp D             &kp M           &kp J        &kp B    &none
-&none    &none  &mo 4        &mt LEFT_WIN ENTER  &lt 5 BACKSPACE   &lt 1 ESC      &mt LEFT_WIN TAB  &lt 3 SPACE                                             &none
-            >;
-        };
-
-        BT_FUNCTION {
-            bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                        &kp F1  &kp F2   &kp F3   &kp F4   &none
-&trans      &trans        &kp LCTRL     &kp LEFT_ALT  &kp LEFT_SHIFT  &trans      &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
-&trans      &trans        &trans        &trans        &trans          &trans      &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
-&trans      &trans        &trans        &trans        &trans          &trans      &trans  &trans                             &trans
-            >;
-        };
-
-        none {
-            bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
-            >;
-        };
-
-        ARROW {
-            bindings = <
-&none   &none        &kp LBKT                        &kp DOUBLE_QUOTES          &kp RBKT                                                       &kp HOME             &kp UP             &kp END          &trans  &trans
-&none   &kp DOLLAR   &mt LS(LCTRL) LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LS(LEFT_SHIFT) RIGHT_PARENTHESIS  &kp AMPS      &kp PG_UP  &mt LEFT_SHIFT LEFT  &mt LEFT_ALT DOWN  &mt LCTRL RIGHT  &trans  &trans
-&none   &kp AT_SIGN  &kp LEFT_BRACE                  &kp GRAVE                  &kp RIGHT_BRACE                       &kp PIPE      &kp PG_DN  &kp ESC              &kp DEL            &trans           &trans  &trans
-&trans  &trans       &trans                          &trans                     &trans                                &trans        &trans     &trans                                                           &trans
+&none    &none  &mo 1        &mt LEFT_WIN ENTER  &lt 2 BACKSPACE   &lt 4 ESC      &mt LEFT_WIN TAB  &lt 3 SPACE                                             &none
             >;
         };
 
         MOUSE {
             bindings = <
 &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE                                          &kp LC(PAGE_UP)  &mkp MB3       &kp LC(PAGE_DOWN)  &trans         &trans
-&trans  &trans  &kp LCTRL          &kp LEFT_ALT  &kp LEFT_SHIFT  &kp C_PLAY_PAUSE      &kp LG(LEFT)  &mkp MB1         &mo 5          &mkp MB2           &kp LG(RIGHT)  &trans
+&trans  &trans  &kp LCTRL          &kp LEFT_ALT  &kp LEFT_SHIFT  &kp C_PLAY_PAUSE      &kp LG(LEFT)  &mkp MB1         &mo 2          &mkp MB2           &kp LG(RIGHT)  &trans
 &trans  &trans  &trans             &trans        &trans          &trans                &trans        &kp LG(W)        &kp LG(LS(T))  &trans             &trans         &trans
 &trans  &trans  &trans             &trans        &trans          &trans                &trans        &trans                                                            &trans
             >;
@@ -106,12 +79,21 @@
             >;
         };
 
-        layer_6 {
+        ARROW {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&none   &none        &kp LBKT                        &kp DOUBLE_QUOTES          &kp RBKT                                                       &kp HOME             &kp UP             &kp END          &trans  &trans
+&none   &kp DOLLAR   &mt LS(LCTRL) LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LS(LEFT_SHIFT) RIGHT_PARENTHESIS  &kp AMPS      &kp PG_UP  &mt LEFT_SHIFT LEFT  &mt LEFT_ALT DOWN  &mt LCTRL RIGHT  &trans  &trans
+&none   &kp AT_SIGN  &kp LEFT_BRACE                  &kp GRAVE                  &kp RIGHT_BRACE                       &kp PIPE      &kp PG_DN  &kp ESC              &kp DEL            &trans           &trans  &trans
+&trans  &trans       &trans                          &trans                     &trans                                &trans        &trans     &trans                                                           &trans
+            >;
+        };
+
+        BT_FUNCTION {
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                        &kp F1  &kp F2   &kp F3   &kp F4   &none
+&trans      &trans        &kp LCTRL     &kp LEFT_ALT  &kp LEFT_SHIFT  &trans      &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
+&trans      &trans        &trans        &trans        &trans          &trans      &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
+&trans      &trans        &trans        &trans        &trans          &trans      &trans  &trans                             &trans
             >;
         };
     };
