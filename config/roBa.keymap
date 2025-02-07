@@ -90,10 +90,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE                                          &kp LS(LC(TAB))  &mkp MB3       &kp LC(TAB)  &trans               &trans
-&trans  &trans  &kp LCTRL          &kp LEFT_ALT  &kp LEFT_SHIFT  &kp C_PLAY      &kp LG(LEFT_ARROW)  &mkp MB1         &mo 5          &mkp MB2     &kp LG(RIGHT_ARROW)  &trans
-&trans  &trans  &trans             &trans        &trans          &trans          &trans              &kp LG(W)        &kp LG(LS(T))  &trans       &trans               &trans
-&trans  &trans  &trans             &trans        &trans          &trans          &trans              &trans                                                            &trans
+&trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE                                          &kp LC(PAGE_UP)  &mkp MB3       &kp LC(PAGE_DOWN)  &trans         &trans
+&trans  &trans  &kp LCTRL          &kp LEFT_ALT  &kp LEFT_SHIFT  &kp C_PLAY_PAUSE      &kp LG(LEFT)  &mkp MB1         &mo 5          &mkp MB2           &kp LG(RIGHT)  &trans
+&trans  &trans  &trans             &trans        &trans          &trans                &trans        &kp LG(W)        &kp LG(LS(T))  &trans             &trans         &trans
+&trans  &trans  &trans             &trans        &trans          &trans                &trans        &trans                                                            &trans
             >;
         };
 
