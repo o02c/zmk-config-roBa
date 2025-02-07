@@ -61,10 +61,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                        &kp F1  &kp F2   &kp F3   &kp F4   &none
+&trans      &trans        &kp LCTRL     &kp LEFT_ALT  &kp LEFT_SHIFT  &trans      &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
+&trans      &trans        &trans        &trans        &trans          &trans      &none   &kp F9  &kp F10  &kp F11  &kp F12  &none
+&trans      &trans        &trans        &trans        &trans          &trans      &trans  &trans                             &trans
             >;
         };
 
