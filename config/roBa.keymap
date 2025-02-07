@@ -9,10 +9,10 @@
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <125>;
+    quick-tap-ms = <200>;
 };
 
-&lt { quick-tap-ms = <125>; };
+&lt { quick-tap-ms = <200>; };
 
 / {
     combos {
@@ -57,7 +57,7 @@
 &none    &none  &kp L        &kp U               &kp F                                              &kp W             &kp R           &kp Y        &none    &none
 &lt 1 Q  &kp E  &mt LCTRL I  &mt LEFT_ALT A      &mt LEFT_SHIFT O  &kp MINUS      &kp K             &mt LEFT_SHIFT T  &mt LEFT_ALT N  &mt LCTRL S  &lt 4 H  &kp P
 &none    &kp Z  &kp X        &kp C               &kp V             &kp COMMA      &kp G             &kp D             &kp M           &kp J        &kp B    &none
-&none    &none  &tog 4       &mt LEFT_WIN ENTER  &lt 5 BACKSPACE   &lt 1 ESC      &mt LEFT_WIN TAB  &lt 3 SPACE                                             &none
+&none    &none  &mo 4        &mt LEFT_WIN ENTER  &lt 5 BACKSPACE   &lt 1 ESC      &mt LEFT_WIN TAB  &lt 3 SPACE                                             &none
             >;
         };
 
@@ -91,7 +91,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp K_MUTE                                          &kp LS(LC(TAB))  &mkp MB3       &kp LC(TAB)  &trans               &trans
-&trans  &trans  &kp LCTRL          &kp LEFT_ALT  &kp LEFT_SHIFT  &kp C_PLAY      &kp LG(LEFT_ARROW)  &mkp MB1         &tog 5         &mkp MB2     &kp LG(RIGHT_ARROW)  &trans
+&trans  &trans  &kp LCTRL          &kp LEFT_ALT  &kp LEFT_SHIFT  &kp C_PLAY      &kp LG(LEFT_ARROW)  &mkp MB1         &mo 5          &mkp MB2     &kp LG(RIGHT_ARROW)  &trans
 &trans  &trans  &trans             &trans        &trans          &trans          &trans              &kp LG(W)        &kp LG(LS(T))  &trans       &trans               &trans
 &trans  &trans  &trans             &trans        &trans          &trans          &trans              &trans                                                            &trans
             >;
