@@ -8,7 +8,7 @@
 #define NUM 6
 
 &mt {
-    flavor = "tap-preferred";
+    flavor = "balanced";
     quick-tap-ms = <125>;
 };
 
