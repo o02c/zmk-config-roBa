@@ -81,10 +81,10 @@
 
         ARROW {
             bindings = <
-&none   &none        &kp LBKT                        &kp DOUBLE_QUOTES          &kp RBKT                                                       &kp HOME             &kp UP             &kp END          &trans  &trans
-&none   &kp DOLLAR   &mt LS(LCTRL) LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LS(LEFT_SHIFT) RIGHT_PARENTHESIS  &kp AMPS      &kp PG_UP  &mt LEFT_SHIFT LEFT  &mt LEFT_ALT DOWN  &mt LCTRL RIGHT  &trans  &trans
-&none   &kp AT_SIGN  &kp LEFT_BRACE                  &kp GRAVE                  &kp RIGHT_BRACE                       &kp PIPE      &kp PG_DN  &kp ESC              &kp DEL            &trans           &trans  &trans
-&trans  &trans       &trans                          &trans                     &trans                                &trans        &trans     &trans                                                           &trans
+&none   &none        &kp LBKT                    &kp DOUBLE_QUOTES          &kp RBKT                                                   &kp HOME             &kp UP             &kp END          &trans  &trans
+&none   &kp DOLLAR   &mt LCTRL LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp AMPS      &kp PG_UP  &mt LEFT_SHIFT LEFT  &mt LEFT_ALT DOWN  &mt LCTRL RIGHT  &trans  &trans
+&none   &kp AT_SIGN  &kp LEFT_BRACE              &kp GRAVE                  &kp RIGHT_BRACE                   &kp PIPE      &kp PG_DN  &kp ESC              &kp DEL            &trans           &trans  &trans
+&trans  &trans       &trans                      &trans                     &trans                            &trans        &trans     &trans                                                           &trans
             >;
         };
 
