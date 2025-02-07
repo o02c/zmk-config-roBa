@@ -55,11 +55,11 @@
 &none    &none  &kp L        &kp U               &kp F                                              &kp W             &kp R           &kp Y        &none    &none
 &lt 1 Q  &kp E  &mt LCTRL I  &mt LEFT_ALT A      &mt LEFT_SHIFT O  &kp MINUS      &kp K             &mt LEFT_SHIFT T  &mt LEFT_ALT N  &mt LCTRL S  &lt 4 H  &kp P
 &none    &kp Z  &kp X        &kp C               &kp V             &kp COMMA      &kp G             &kp D             &kp M           &kp J        &kp B    &none
-&none    &none  &none        &mt LEFT_WIN ENTER  &lt 5 BACKSPACE   &lt 1 ESC      &mt LEFT_WIN TAB  &lt 3 SPACE                                             &none
+&none    &none  &tog 4       &mt LEFT_WIN ENTER  &lt 5 BACKSPACE   &lt 1 ESC      &mt LEFT_WIN TAB  &lt 3 SPACE                                             &none
             >;
         };
 
-        FUNCTION {
+        BT_FUNCTION {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                        &kp F1  &kp F2   &kp F3   &kp F4   &none
 &trans      &trans        &kp LCTRL     &kp LEFT_ALT  &kp LEFT_SHIFT  &trans      &none   &kp F5  &kp F6   &kp F7   &kp F8   &none
@@ -68,7 +68,7 @@
             >;
         };
 
-        NUM {
+        none {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
@@ -80,12 +80,10 @@
         ARROW {
             bindings = <
 &none   &none        &kp LBKT                        &kp DOUBLE_QUOTES          &kp RBKT                                                       &kp HOME             &kp UP             &kp END          &trans  &trans
-&none   &kp BSLH     &mt LS(LCTRL) LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LS(LEFT_SHIFT) RIGHT_PARENTHESIS  &kp AMPS      &kp PG_UP  &mt LEFT_SHIFT LEFT  &mt LEFT_ALT DOWN  &mt LCTRL RIGHT  &trans  &trans
+&none   &kp DOLLAR   &mt LS(LCTRL) LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LS(LEFT_SHIFT) RIGHT_PARENTHESIS  &kp AMPS      &kp PG_UP  &mt LEFT_SHIFT LEFT  &mt LEFT_ALT DOWN  &mt LCTRL RIGHT  &trans  &trans
 &none   &kp AT_SIGN  &kp LEFT_BRACE                  &kp GRAVE                  &kp RIGHT_BRACE                       &kp PIPE      &kp PG_DN  &kp ESC              &kp DEL            &trans           &trans  &trans
 &trans  &trans       &trans                          &trans                     &trans                                &trans        &trans     &trans                                                           &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
@@ -99,10 +97,10 @@
 
         SCROLL_NUM {
             bindings = <
-&none      &none      &kp N1        &kp N2           &kp N3                                             &kp LT               &kp EQUAL           &kp GT           &none     &none
-&kp TILDE  &kp N0     &mt LCTRL N4  &mt LEFT_ALT N5  &mt LEFT_SHIFT N6  &kp DOLLAR      &kp CARET       &mt LEFT_SHIFT PLUS  &mt LEFT_ALT MINUS  &mt LCTRL ASTRK  &kp FSLH  &kp PRCNT
-&none      &kp POUND  &kp N7        &kp N8           &kp N9             &kp DOT         &kp UNDERSCORE  &kp COLON            &kp EXCL            &kp QUESTION     &kp SEMI  &none
-&trans     &trans     &trans        &trans           &trans             &trans          &trans          &trans                                                              &trans
+&none      &none      &kp N1        &kp N2           &kp N3                                                &kp LT               &kp EQUAL           &kp GT           &none     &none
+&kp TILDE  &kp N0     &mt LCTRL N4  &mt LEFT_ALT N5  &mt LEFT_SHIFT N6  &kp BACKSLASH      &kp CARET       &mt LEFT_SHIFT PLUS  &mt LEFT_ALT MINUS  &mt LCTRL ASTRK  &kp FSLH  &kp PRCNT
+&none      &kp POUND  &kp N7        &kp N8           &kp N9             &kp DOT            &kp UNDERSCORE  &kp COLON            &kp EXCL            &kp QUESTION     &kp SEMI  &none
+&trans     &trans     &trans        &trans           &trans             &trans             &trans          &trans                                                              &trans
             >;
         };
 
